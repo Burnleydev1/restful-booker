@@ -1,6 +1,6 @@
 # restful-booker
 
-````markdown
+
 # 📉 Baseline Load Test: Restful Booker API
 
 This project contains a JMeter performance test strategy designed to establish a baseline for the **Restful Booker API**. 
@@ -13,17 +13,16 @@ The goal of this test is to verify system behavior under a steady, realistic loa
 
 We are not just "hitting" the server; we are simulating a realistic usage pattern with a distinct lifecycle.
 
-| Phase | Duration | Details |
-| :--- | :--- | :--- |
-| **Ramp-Up** | 60 sec | Gradually adds users to warm up caches/DB connections. |
-| **Steady State** | 9 mins | Holds load constant to capture reliable metrics (TPS, Latency). |
-| **Ramp-Down** | Instant | Test concludes after the duration. |
+| Phase            | Duration | Details                                                         |
+| ---------------- | -------- | --------------------------------------------------------------- |
+| **Ramp-Up**      | 60 sec   | Gradually adds users to warm up caches/DB connections.          |
+| **Steady State** | 9 mins   | Holds load constant to capture reliable metrics (TPS, Latency). |
+| **Ramp-Down**    | Instant  | Test concludes after the duration.                              |
 
 * **Target Load:** 50 Concurrent Users
 * **Target System:** [Restful Booker API](https://restful-booker.herokuapp.com) (Public Demo)
 * **Protocol:** HTTPS
 
----
 
 ## 🛠️ Prerequisites
 
