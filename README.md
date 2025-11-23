@@ -1,9 +1,5 @@
 # restful-booker
 
-Here is a clean, professional, and "developer-friendly" `README.md`. It assumes the reader has no prior knowledge of your specific setup and guides them from zero to running the test.
-
-Copy this code block and paste it into your `README.md` file in the `Day-02-Baseline-Load-Test` folder.
-
 ````markdown
 # 📉 Baseline Load Test: Restful Booker API
 
