@@ -39,7 +39,7 @@ Running load tests in the JMeter GUI consumes high memory and skews results. **A
 
 ### 1. Clone the Repo
 ```bash
-git clone [git@github.com:Burnleydev1/restful-booker.git](git@github.com:Burnleydev1/restful-booker.git)
+git clone git@github.com:Burnleydev1/restful-booker.git
 cd performance-engineering-portfolio/restful-booker
 ````
 
@@ -96,12 +96,3 @@ This test targets `restful-booker.herokuapp.com`, which is a shared public demo 
 ### 👤 Author
 
 **Bonalais Amahnui A.** *Performance Engineering Enthusiast* [LinkedIn Profile](https://www.linkedin.com/in/abongwa-bonalais-a4a34a1a9/)
-
-```
-
-### 💡 One small task for you:
-1.  Replace `YOUR_USERNAME` with your actual GitHub username.
-2.  Replace `Your_LinkedIn_URL` at the bottom with your actual profile link.
-
-
-```
